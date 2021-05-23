@@ -16,8 +16,10 @@
 		DC84EE49265A30E2007E153F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE48265A30E2007E153F /* DetailViewController.swift */; };
 		DC84EE4B265A3217007E153F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE4A265A3217007E153F /* SwiftyJSON.swift */; };
 		DC84EE4E265A3328007E153F /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE4C265A3328007E153F /* Tracker.xcdatamodeld */; };
-		DC84EE55265A9FE0007E153F /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE53265A9FE0007E153F /* Commit+CoreDataClass.swift */; };
-		DC84EE56265A9FE0007E153F /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE54265A9FE0007E153F /* Commit+CoreDataProperties.swift */; };
+		DC84EE5F265AE906007E153F /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE5B265AE906007E153F /* Author+CoreDataClass.swift */; };
+		DC84EE60265AE906007E153F /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE5C265AE906007E153F /* Author+CoreDataProperties.swift */; };
+		DC84EE61265AE906007E153F /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE5D265AE906007E153F /* Commit+CoreDataClass.swift */; };
+		DC84EE62265AE906007E153F /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84EE5E265AE906007E153F /* Commit+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,10 @@
 		DC84EE48265A30E2007E153F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DC84EE4A265A3217007E153F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		DC84EE4D265A3328007E153F /* Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tracker.xcdatamodel; sourceTree = "<group>"; };
-		DC84EE53265A9FE0007E153F /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		DC84EE54265A9FE0007E153F /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC84EE5B265AE906007E153F /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DC84EE5C265AE906007E153F /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		DC84EE5D265AE906007E153F /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		DC84EE5E265AE906007E153F /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,10 @@
 		DC84EE33265A2EAC007E153F /* Github Commits */ = {
 			isa = PBXGroup;
 			children = (
-				DC84EE53265A9FE0007E153F /* Commit+CoreDataClass.swift */,
-				DC84EE54265A9FE0007E153F /* Commit+CoreDataProperties.swift */,
+				DC84EE5B265AE906007E153F /* Author+CoreDataClass.swift */,
+				DC84EE5C265AE906007E153F /* Author+CoreDataProperties.swift */,
+				DC84EE5D265AE906007E153F /* Commit+CoreDataClass.swift */,
+				DC84EE5E265AE906007E153F /* Commit+CoreDataProperties.swift */,
 				DC84EE34265A2EAC007E153F /* AppDelegate.swift */,
 				DC84EE36265A2EAC007E153F /* SceneDelegate.swift */,
 				DC84EE38265A2EAC007E153F /* ViewController.swift */,
@@ -153,13 +159,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC84EE39265A2EAC007E153F /* ViewController.swift in Sources */,
-				DC84EE55265A9FE0007E153F /* Commit+CoreDataClass.swift in Sources */,
 				DC84EE35265A2EAC007E153F /* AppDelegate.swift in Sources */,
 				DC84EE4E265A3328007E153F /* Tracker.xcdatamodeld in Sources */,
 				DC84EE37265A2EAC007E153F /* SceneDelegate.swift in Sources */,
+				DC84EE5F265AE906007E153F /* Author+CoreDataClass.swift in Sources */,
 				DC84EE4B265A3217007E153F /* SwiftyJSON.swift in Sources */,
-				DC84EE56265A9FE0007E153F /* Commit+CoreDataProperties.swift in Sources */,
+				DC84EE60265AE906007E153F /* Author+CoreDataProperties.swift in Sources */,
 				DC84EE49265A30E2007E153F /* DetailViewController.swift in Sources */,
+				DC84EE62265AE906007E153F /* Commit+CoreDataProperties.swift in Sources */,
+				DC84EE61265AE906007E153F /* Commit+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
