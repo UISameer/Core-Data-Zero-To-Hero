@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Github Commits
-//
-//  Created by postgres on 5/23/21.
-//
-
 import UIKit
 
 @main

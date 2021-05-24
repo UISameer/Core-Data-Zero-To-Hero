@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Github Commits
-//
-//  Created by postgres on 5/23/21.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
